@@ -1,8 +1,7 @@
-# Environment setup
+# Docker commands to run the project
 
-1. create a virtual environment
-2. Activate the virtual environment
-3. Run the requirements.txt
+1. docker build -t  ocr_casestudy .
+2. docker run -itd --name ocr_casestudy -p 80:80 ocr_casestudy
 
 # FastApi restful services
-uvicorn main:app --reload
+http://127.0.0.1/docs
